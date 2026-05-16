@@ -6,7 +6,7 @@ interface Props {
   index: number
 }
 
-export function PracticeCard({ practice, index }: Props) {
+export function PracticeCard({ practice, _index }: Props) {
   return (
     <div className="group flex flex-col rounded-xl border border-border bg-card overflow-hidden hover:border-primary/50 transition-all duration-300 h-full">
       

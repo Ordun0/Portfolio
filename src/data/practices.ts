@@ -6,7 +6,7 @@ export interface Practice {
 }
 
 export const practices: Practice[] = [
-  { number: 1, title: "Práctica 1", description: "Propiedad Intelectual.", pdf: "../../public/practica1.pdf" },
+  { number: 1, title: "Práctica 1", description: "Propiedad Intelectual.", pdf: "../../public/Practica1.pdf" },
   { number: 2, title: "Estilos con CSS3", description: "Flexbox, Grid y diseño responsivo aplicado a layouts modernos." },
   { number: 3, title: "JavaScript Fundamentos", description: "Variables, funciones, DOM y eventos del navegador." },
   { number: 4, title: "Programación Orientada a Objetos", description: "Clases, herencia y encapsulamiento en un caso práctico." },

@@ -1,0 +1,27 @@
+# Dependencias (NUNCA subir a Git)
+node_modules/
+.pnp
+.pnp.js
+
+# Output de build
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Variables de entorno
+.env*.local
+.vercel
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

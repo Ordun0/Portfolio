@@ -5,7 +5,7 @@ interface Props {
   practice: Practice
 }
 
-export function PracticeCard({ practice}: Props) {
+export function PracticeCard({ practice }: Props) {
   return (
     <div className="group flex flex-col rounded-xl border border-border bg-card overflow-hidden hover:border-primary/50 transition-all duration-300 h-full">
       

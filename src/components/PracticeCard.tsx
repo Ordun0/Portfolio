@@ -1,4 +1,3 @@
-import { FileText, ExternalLink, Github, Globe } from 'lucide-react'
 import type { Practice } from '../data/practices'
 
 interface Props {

@@ -6,7 +6,7 @@ export interface Practice {
 }
 
 export const practices: Practice[] = [
-  { number: 1, title: "Práctica 1", description: "Propiedad Intelectual.", pdf: "../../public/Practica1.pdf" },
+  { number: 1, title: "Práctica 1", description: "Propiedad Intelectual.", pdf: "../../../public/Practica1.pdf" },
   { number: 2, title: "Práctica 2", description: "Transferencia de conocimiento científico-industrial en ingeniería de software.", pdf: "../../public/Practica2.pdf" },
   { number: 3, title: "Ensayo Unidad 1", description: "Ensayo sobre la propiedad intlectual.", pdf: "../../public/Ensayo1.pdf" },
   { number: 4, title: "Práctica 3", description: "Protafolio de evidencia." },

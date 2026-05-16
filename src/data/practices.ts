@@ -3,13 +3,14 @@ export interface Practice {
   title: string;
   description: string;
   pdf?: string;
+  link?: string;
 }
 
 export const practices: Practice[] = [
   { number: 1, title: "Práctica 1", description: "Propiedad Intelectual.", pdf: "/Practica1.pdf" },
   { number: 2, title: "Práctica 2", description: "Transferencia de conocimiento científico-industrial en ingeniería de software.", pdf: "/Practica2.pdf" },
   { number: 3, title: "Ensayo Unidad 1", description: "Ensayo sobre la propiedad intlectual.", pdf: "/Ensayo1.pdf" },
-  { number: 4, title: "Práctica 3", description: "Protafolio de evidencia." },
+  { number: 4, title: "Práctica 3", description: "Protafolio de evidencia.", link: "https://cesar-programmer.github.io/gestion-de-la-inovacion/" },
   { number: 5, title: "Práctica 4", description: "Plan de trabajo para el registro de propiedad intelectual en México.", pdf: "/Practica4.pdf" },
   { number: 6, title: "Práctica 5", description: "Análisis del impacto de la evolución tecnológica en la ingeniería de software.", pdf: "/Practica5.pdf" },
   { number: 7, title: "Práctica 6", description: "La Biología Sintética y la Programación de la Vida: Horizontes, Dilemas y Gobernanza para el Futuro.", pdf: "/Practica6.pdf" },
